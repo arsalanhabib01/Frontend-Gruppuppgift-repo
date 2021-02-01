@@ -3,7 +3,7 @@
 
   "afterWeCollide": {
 
-    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "trailer": "<iframe src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "After we collided",
 
@@ -37,7 +37,7 @@
   },
 
   "alfonsLekerEinstein": {
-    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/Df7z5tSBkWI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "trailer": "<iframe src='https://www.youtube.com/embed/Df7z5tSBkWI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Alfons leker Einstein",
 
@@ -69,7 +69,7 @@
   },
 
   "andraSidan": {
-    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/EN4ICCu8SJI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "trailer": "<iframe src='https://www.youtube.com/embed/EN4ICCu8SJI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Andra sidan",
 
@@ -101,7 +101,7 @@
   },
 
   "bertsDagbok": {
-    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/WH2pX1QPrb4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "trailer": "<iframe src='https://www.youtube.com/embed/WH2pX1QPrb4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Berts dagbok",
 
@@ -136,7 +136,7 @@
 
   },
   "comePlay": {
-    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/LQwiqhdMQ7g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "trailer": "<iframe src='https://www.youtube.com/embed/LQwiqhdMQ7g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Come play",
 
