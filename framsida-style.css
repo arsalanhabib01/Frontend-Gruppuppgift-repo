@@ -13,6 +13,11 @@ header{
  font-size:larger
 }
 
+h3{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
 .page_title p{
  margin-top:20px;
 }
@@ -33,5 +38,19 @@ header{
   border-right: solid black;
   border-width: 1px;
   padding: 10px
+}
+
+.film_ikoner{
+  padding-top: -0px;
+  display:flex;
+  justify-content: center;
+}
+
+.film_ikoner img{
+  height: 200px;
+  border: solid black;
+  border-radius: 10px;
+  margin: 5px;
+  border-width: 1px;
 }
 
