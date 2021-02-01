@@ -1,0 +1,37 @@
+
+header{
+  font-size: larger;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.page_title{
+ display: flex;
+ text-align: left;
+ font-size:larger
+}
+
+.page_title p{
+ margin-top:20px;
+}
+
+.icon{
+  padding-right:10px;
+  width: 30%;
+  height: 90%;
+  float: left;
+}
+.navlist_right {
+  
+  margin-top:10px;
+  
+}
+
+.navlist_right a{
+  border-right: solid black;
+  border-width: 1px;
+  padding: 10px
+}
+
