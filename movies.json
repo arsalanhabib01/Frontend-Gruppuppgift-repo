@@ -1,0 +1,176 @@
+{
+"movies": {
+
+  "afterWeCollide": {
+
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "After we collided",
+
+    "productionYear": 2020,
+
+    "length": 132,
+
+    "genre": "Romantik, Drama",
+
+    "distributor": "UIP",
+
+    "language": "engelska",
+
+    "subtitles": "svenska",
+
+    "director": "Roger Kumble",
+
+    "actors": [
+
+      "Josephine Langford",
+
+      "Hero Fiennes Tiffin",
+
+      "Dylan Sprouse"
+
+    ],
+
+    "description": "Hardin Scott och Tessa Young går igenom efterdyningarna av deras uppbrott. Medan Hardin faller in i dåliga vanor är Tessa fylld av nytt självförtroende och landar sina drömmars praktikplats på förlaget Vance. På sin nya arbetsplats uppmärksammar hon sin stiliga nya medarbetare Trevor, som är exakt den typ av kille som hon borde vara med. Han är smart, rolig, stilig och ansvarsfull, men Tessa kan inte få Hardin ur huvudet. Han är ju ändå hennes livs kärlek. Trots alla deras missförstånd och svårigheter kan Tessa inte förneka dragningskraften hon har till Hardin. Hon önskar att hon kunde hålla sig borta... det är bara inte så lätt. Genom alla med- och motgångar kommer Hardin och Tessa att kämpa för att vara tillsammans ... även om universum vill att de ska vara isär."
+
+
+  },
+
+  "alfonsLekerEinstein": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/Df7z5tSBkWI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "Alfons leker Einstein",
+
+    "productionYear": 2019,
+
+    "length": 40,
+
+    "genre": "Animerat,Barn,Familj",
+
+    "distributor": "UIP",
+
+    "language": "Svenska",
+
+    "subtitles": "svenska",
+
+    "director": "Liller Möller",
+
+    "actors": [
+
+      "Alfons Åberg",
+
+      "Alfons pappa"
+
+    ],
+
+    "description": "Alfons är nu en skolpojke och funderar på det mesta. Var börjar och slutar allt? Hur mycket av Alfons är egentligen verkligen Alfons? Om man spottar på gatan, är det en bit av en själv som ligger där i spottet? Alfons har en ny kompis, Hamdi och de leker ofta krigslekar. Hamdis pappa har varit med i kriget, ett riktigt krig. Alfons och Hamdi vill gärna att pappan ska berätta om kriget. Men den här soldatpappan vill inte så gärna berätta… Alfons funderar över uppfinningar och uppfinnare. Tillsammans med Hamidi och Milla gör han en uppfinningsbok och testar en del av dem i praktiken."
+
+
+  },
+
+  "andraSidan": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/EN4ICCu8SJI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "Andra sidan",
+
+    "productionYear": 2020,
+
+    "length": 87,
+
+    "genre": "Skräck",
+
+    "distributor": "UIP",
+
+    "language": "svenska",
+
+    "subtitles": "svenska",
+
+    "director": "Tord Danielsson,Oskar Mellander",
+
+    "actors": [
+
+      "Dilan Gwyn",
+
+      "Linus Wahlgren"
+
+    ],
+
+    "description": "Shirin har just flyttat till ett parhus utanför stan med sin sambo Fredrik och hans son, Lucas. När Fredrik är bortrest på jobb börjar märkliga ljud komma från husets andra, obebodda, del. Och Lucas har från ingenstans fått en ny bästa vän..."
+
+
+  },
+
+  "bertsDagbok": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/WH2pX1QPrb4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "Berts dagbok",
+
+    "productionYear": 2020,
+
+    "length": 90,
+
+    "genre": "Familj, Humor",
+
+    "distributor": "SF Studios",
+
+    "language": "svenska",
+
+    "subtitles": "inga",
+
+    "director": "Michael Lindgren",
+
+    "actors": [
+
+      "Hugo Krajcik",
+      "Julia Pirzadeh",
+      "Frank Dorsin",
+      "Yussra El Abdouni",
+      "Arvid Bergelv",
+      "Björn Gustafsson",
+      "Suzanne Reuter"
+
+    ],
+
+    "description": "Det är Bert Ljungs och hans kompisar Åkes och Lill-Eriks första dag på högstadiet. På skolan är Yoghurt-Leila den stora stjärnan. Hon går i nian, är reklammodell, cool och precis alla beundrar henne. Så fort Bert får syn på Leila faller han pladask. Men hur ska han få henne att lägga märke till honom, han går ju bara i sjuan?! Kanske kan Amira, ny i Berts klass och lillasyster till Leila, vara till hjälp? Snart tar en pirrig historia fart genom en pinsam skoltemadag, rawfoodbollar, ett oförutsett toalettbesök och inte minst – två hemliga dagböcker."
+
+
+  },
+  "comePlay": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/LQwiqhdMQ7g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "Come play",
+
+    "productionYear": 2020,
+
+    "length": 97,
+
+    "genre": "Skräck,Thriller",
+
+    "distributor": "SF Studios",
+
+    "language": "Engelska",
+
+    "subtitles": "Svenska",
+
+    "director": "Jacob Chase",
+
+    "actors": [
+
+      "Azhy Robertson",
+      "Gillian Jacobs",
+      "John Gallagher Jr",
+      "Winslow Fegley",
+      "Jayden Marine",
+      "Gavin MacIver-Wright"
+
+    ],
+
+    "description": "Oliver är en ensam ung kille som inte känner sig som någon annan. Han längtar efter att få en riktig vän och söker tröst och tillflykt i sin mobil och sin surfplatta, hans två ständiga följeslagare. När en mystisk varelse använder Olivers apparater mot honom för att bryta sig in i vår värld måste Olivers föräldrar kämpa för att rädda sin son från monstret bakom skärmen."
+
+
+  }
+
+
+  
+}
+}
