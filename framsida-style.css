@@ -13,7 +13,7 @@ header{
  font-size:larger
 }
 
-h3{
+.aktuellt{
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
@@ -47,10 +47,34 @@ h3{
 }
 
 .film_ikoner img{
-  height: 200px;
+  height: 250px;
   border: solid black;
   border-radius: 10px;
   margin: 5px;
   border-width: 1px;
+}
+
+.schema{
+  justify-content: center;
+  display:flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+.schema div{
+  border-right: solid black;
+  border-width: 1px;
+  margin-top: 50px;
+}
+
+.schema img{
+  height: 150px;
+  margin: 30px;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 5px;
+  opacity: 80%;
+  display: block;
 }
 
