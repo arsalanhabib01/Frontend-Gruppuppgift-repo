@@ -1,6 +1,6 @@
 $(document).ready(function() {
                   
-  $.getJSON('movies.json', function(json) {
+  $.getJSON('../movies.json', function(json) {
     $('.div1').html('<div class= "trailer">' + json.movies.alfonsLekerEinstein.trailer + '</div>');
     $('.div1').append('<p> Title: ' + json.movies.alfonsLekerEinstein.title + '</p>');
     $('.div1').append('<p> Production year : ' + json.movies.alfonsLekerEinstein.productionYear + '</p>');
@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('.div1').append('<p> Description: ' + json.movies.alfonsLekerEinstein.description + '</p>');
   });
   
-  $.getJSON('showings.json', function (json2) {
+  $.getJSON('../showings.json', function (json2) {
     let arr = json2.showings.alfonsLekerEinstein;
 
     $('.div2').append('<h2 class= "showings">Visningar:</h2>');
