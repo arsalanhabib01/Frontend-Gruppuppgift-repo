@@ -80,3 +80,19 @@ h3{
   margin: 5px;
   border-width: 1px;
 }
+
+
+.movieimage {
+  width: 100px;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: black;
+  border-radius: 20px;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  margin-left: 9%;
+}
