@@ -8,7 +8,117 @@
 
     "film": "After we collided",
 
-    "date": "2021-02-22",
+    "date": "2021-02-01",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-04",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-05",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-06",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-09",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-11",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-13",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-14",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-17",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-18",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-21",
 
     "time": "17.30"
 
@@ -21,7 +131,7 @@
 
     "date": "2021-02-22",
 
-    "time": "19.30"
+    "time": "21.30"
 
     },
     {
@@ -30,9 +140,20 @@
 
     "film": "After we collided",
 
-    "date": "2021-02-22",
+    "date": "2021-02-24",
 
     "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-25",
+
+    "time": "19.30"
 
     },
     {
@@ -47,122 +168,11 @@
 
     },
     {
-
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
 
-    "date": "2021-02-27",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-02-27",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-01",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-01",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-01",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-05",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-05",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-05",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-09",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-09",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-09",
+    "date": "2021-02-28",
 
     "time": "21.30"
 
@@ -176,7 +186,150 @@
 
     "film": "Alfons leker Einstein",
 
-    "date": "2021-02-24",
+    "date": "2021-02-01",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-02",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-03",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-04",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-08",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-09",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-10",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-11",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-15",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-16",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-17",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-18",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-22",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-02-23",
 
     "time": "17.30"
 
@@ -189,28 +342,6 @@
 
     "date": "2021-02-24",
 
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-02-24",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-02",
-
     "time": "17.30"
 
     },
@@ -220,122 +351,14 @@
 
     "film": "Alfons leker Einstein",
 
-    "date": "2021-03-02",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-02",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-09",
+    "date": "2021-02-25",
 
     "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-09",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-09",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-16",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-16",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-16",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-23",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-23",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "Alfons leker Einstein",
-
-    "date": "2021-03-23",
-
-    "time": "21.30"
 
     }
-    ],
+    ]
+    
+    ,
     "andraSidan": 
     [
     {
@@ -343,29 +366,7 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-02-22",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-02-22",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-02-22",
+    "date": "2021-02-02",
 
     "time": "21.30"
 
@@ -376,29 +377,7 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-02-27",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-02-27",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-02-27",
+    "date": "2021-02-03",
 
     "time": "21.30"
 
@@ -409,18 +388,7 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-03-01",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-03-01",
+    "date": "2021-02-05",
 
     "time": "19.30"
 
@@ -431,7 +399,18 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-03-01",
+    "date": "2021-02-07",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-08",
 
     "time": "21.30"
 
@@ -442,29 +421,7 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-03-05",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-03-05",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla Salongen",
-
-    "film": "Andra sidan",
-
-    "date": "2021-03-05",
+    "date": "2021-02-09",
 
     "time": "21.30"
 
@@ -475,7 +432,7 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-03-09",
+    "date": "2021-02-12",
 
     "time": "17.30"
 
@@ -486,7 +443,73 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-03-09",
+    "date": "2021-02-12",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-13",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-15",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-17",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-18",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-19",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-20",
 
     "time": "19.30"
 
@@ -497,12 +520,50 @@
 
     "film": "Andra sidan",
 
-    "date": "2021-03-09",
+    "date": "2021-02-21",
 
     "time": "21.30"
 
     }
+    ,
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-23",
+
+    "time": "19.30"
+
+    }
+    ,
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-26",
+
+    "time": "21.30"
+
+    }
+    ,
+    {
+
+    "auditorium": "Lilla Salongen",
+
+    "film": "Andra sidan",
+
+    "date": "2021-02-27",
+
+    "time": "19.30"
+
+    }
     ],
+
+
     "bertsDagbok": 
     [
     {
@@ -510,18 +571,7 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-02-24",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-02-24",
+    "date": "2021-02-02",
 
     "time": "19.30"
 
@@ -532,9 +582,9 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-02-24",
+    "date": "2021-02-04",
 
-    "time": "21.30"
+    "time": "19.30"
 
     },
     {
@@ -543,7 +593,18 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-03-02",
+    "date": "2021-02-06",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-07",
 
     "time": "17.30"
 
@@ -554,7 +615,7 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-03-02",
+    "date": "2021-02-10",
 
     "time": "19.30"
 
@@ -565,29 +626,7 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-03-02",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-03-09",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-03-09",
+    "date": "2021-02-12",
 
     "time": "19.30"
 
@@ -598,29 +637,7 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-03-09",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-03-16",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-03-16",
+    "date": "2021-02-14",
 
     "time": "19.30"
 
@@ -631,29 +648,7 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-03-16",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-03-23",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Berts dagbok",
-
-    "date": "2021-03-23",
+    "date": "2021-02-15",
 
     "time": "19.30"
 
@@ -664,12 +659,80 @@
 
     "film": "Berts dagbok",
 
-    "date": "2021-03-23",
+    "date": "2021-02-16",
 
-    "time": "21.30"
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-19",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-20",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-22",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-24",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-26",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Berts dagbok",
+
+    "date": "2021-02-28",
+
+    "time": "17.30"
 
     }
     ],
+
+
     "comePlay": 
     [
     {
@@ -677,29 +740,7 @@
 
     "film": "Come play",
 
-    "date": "2021-02-26",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Come play",
-
-    "date": "2021-02-26",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Come play",
-
-    "date": "2021-02-26",
+    "date": "2021-02-01",
 
     "time": "21.30"
 
@@ -710,9 +751,9 @@
 
     "film": "Come play",
 
-    "date": "2021-03-05",
+    "date": "2021-02-03",
 
-    "time": "17.30"
+    "time": "19.30"
 
     },
     {
@@ -721,7 +762,29 @@
 
     "film": "Come play",
 
-    "date": "2021-03-05",
+    "date": "2021-02-05",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Come play",
+
+    "date": "2021-02-07",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Come play",
+
+    "date": "2021-02-08",
 
     "time": "19.30"
 
@@ -732,7 +795,7 @@
 
     "film": "Come play",
 
-    "date": "2021-03-05",
+    "date": "2021-02-10",
 
     "time": "21.30"
 
@@ -743,9 +806,9 @@
 
     "film": "Come play",
 
-    "date": "2021-03-12",
+    "date": "2021-02-11",
 
-    "time": "17.30"
+    "time": "21.30"
 
     },
     {
@@ -754,7 +817,7 @@
 
     "film": "Come play",
 
-    "date": "2021-03-12",
+    "date": "2021-02-13",
 
     "time": "19.30"
 
@@ -765,7 +828,7 @@
 
     "film": "Come play",
 
-    "date": "2021-03-12",
+    "date": "2021-02-16",
 
     "time": "21.30"
 
@@ -776,7 +839,7 @@
 
     "film": "Come play",
 
-    "date": "2021-03-19",
+    "date": "2021-02-19",
 
     "time": "17.30"
 
@@ -787,18 +850,7 @@
 
     "film": "Come play",
 
-    "date": "2021-03-19",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Come play",
-
-    "date": "2021-03-19",
+    "date": "2021-02-20",
 
     "time": "21.30"
 
@@ -809,18 +861,7 @@
 
     "film": "Come play",
 
-    "date": "2021-03-26",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Stora salongen",
-
-    "film": "Come play",
-
-    "date": "2021-03-26",
+    "date": "2021-02-21",
 
     "time": "19.30"
 
@@ -831,14 +872,45 @@
 
     "film": "Come play",
 
-    "date": "2021-03-26",
+    "date": "2021-02-23",
 
     "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Come play",
+
+    "date": "2021-02-25",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Come play",
+
+    "date": "2021-02-26",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora salongen",
+
+    "film": "Come play",
+
+    "date": "2021-02-28",
+
+    "time": "19.30"
 
     }
     ]
     
 }
 }
-
-
