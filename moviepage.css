@@ -1,22 +1,39 @@
 main{
   display: flex;
-  justify-content:space-evenly;
-  width: 100%;
+  background-color: gray;
+  margin: 1px;
+  padding: 10px;
+  border: solid black;
 }
 
 .div1 {
   width: 45%;
-  margin: auto;
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(148, 148, 148);
+  margin-top: 0px;
+  padding: 10px;
+
 }
 
 .div2{
-  width: 45%;
-  margin: auto;
+  border: solid black;
+  background-color: rgb(148, 148, 148);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 20px;
+  width: auto;
 }
 
+.showings{
+  border-bottom: solid black;
+  padding:10px;
+}
 iframe{
+  height: 400px;
   width: 100%;
-  height: 500px;
+  border-bottom: solid black;
 }
 
 
@@ -86,8 +103,11 @@ h3{
   
 }
 
+showings{
+  border-bottom: solid black;
+}
 .navlist_right a{
-  border-right: solid black;
+  border-bottom: solid black;
   border-width: 1px;
   padding: 10px;
   text-decoration: none;
