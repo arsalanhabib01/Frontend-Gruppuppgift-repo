@@ -1,7 +1,8 @@
-$(document).ready(function() {
-                  
-  $.getJSON('../movies.json', function(json) {
+$(document).ready(function () {
+
+  $.getJSON('../movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.comePlay.trailer + '</div>');
+    $('.div1').append('<a href = "/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.comePlay.title + '</p>');
     $('.div1').append('<p> Produktionsår : ' + json.movies.comePlay.productionYear + '</p>');
     $('.div1').append('<p> Längd: ' + json.movies.comePlay.length + ' m</p>');
@@ -13,7 +14,7 @@ $(document).ready(function() {
     $('.div1').append('<p> Skådespelare: ' + json.movies.comePlay.actors + '</p>');
     $('.div1').append('<p> Handling: ' + json.movies.comePlay.description + '</p>');
   });
-  
+
   $.getJSON('../showings.json', function (json2) {
     let arr = json2.showings.comePlay;
 
@@ -22,6 +23,6 @@ $(document).ready(function() {
     arr.forEach(obj => {
       $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
-    
-    });
+
   });
+});

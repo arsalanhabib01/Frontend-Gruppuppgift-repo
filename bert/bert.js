@@ -1,7 +1,8 @@
-$(document).ready(function() {
-                  
-  $.getJSON('../movies.json', function(json) {
+$(document).ready(function () {
+
+  $.getJSON('../movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.bertsDagbok.trailer + '</div>');
+    $('.div1').append('<a href = "/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.bertsDagbok.title + '</p>');
     $('.div1').append('<p> Produktionsår : ' + json.movies.bertsDagbok.productionYear + '</p>');
     $('.div1').append('<p> Längd: ' + json.movies.bertsDagbok.length + ' m</p>');
@@ -13,15 +14,15 @@ $(document).ready(function() {
     $('.div1').append('<p> Skådespelare: ' + json.movies.bertsDagbok.actors + '</p>');
     $('.div1').append('<p> Handling: ' + json.movies.bertsDagbok.description + '</p>');
   });
-  
+
   $.getJSON('../showings.json', function (json2) {
     let arr = json2.showings.bertsDagbok;
 
     $('.div2').append('<h2>Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time +  " " + obj.auditorium + '</div>');
+      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
-    
-    });
+
   });
+});
