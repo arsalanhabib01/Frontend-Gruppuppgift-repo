@@ -1,7 +1,8 @@
-$(document).ready(function() {
-                  
-  $.getJSON('../movies.json', function(json) {
+$(document).ready(function () {
+
+  $.getJSON('../movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.afterWeCollide.trailer + '</div>');
+    $('.div1').append('<a href = "/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.afterWeCollide.title + '</p>');
     $('.div1').append('<p> Produktionsår : ' + json.movies.afterWeCollide.productionYear + '</p>');
     $('.div1').append('<p> Längd: ' + json.movies.afterWeCollide.length + ' m</p>');
@@ -20,9 +21,9 @@ $(document).ready(function() {
     $('.div2').append('<h2>Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time +  " " + obj.auditorium + '</div>');
+      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
-    
-    });
-  
+
+  });
+
 });

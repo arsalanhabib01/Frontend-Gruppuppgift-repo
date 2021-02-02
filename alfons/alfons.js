@@ -1,7 +1,8 @@
-$(document).ready(function() {
-                  
-  $.getJSON('../movies.json', function(json) {
+$(document).ready(function () {
+
+  $.getJSON('../movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.alfonsLekerEinstein.trailer + '</div>');
+    $('.div1').append('<a href = "/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.alfonsLekerEinstein.title + '</p>');
     $('.div1').append('<p> Produktionsår : ' + json.movies.alfonsLekerEinstein.productionYear + '</p>');
     $('.div1').append('<p> Längd: ' + json.movies.alfonsLekerEinstein.length + ' m</p>');
@@ -13,15 +14,17 @@ $(document).ready(function() {
     $('.div1').append('<p> Skådespelare: ' + json.movies.alfonsLekerEinstein.actors + '</p>');
     $('.div1').append('<p> Handling: ' + json.movies.alfonsLekerEinstein.description + '</p>');
   });
-  
+
   $.getJSON('../showings.json', function (json2) {
     let arr = json2.showings.alfonsLekerEinstein;
 
     $('.div2').append('<h2>Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time +  " " + obj.auditorium + '</div>');
+      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
-    
-    });
+
   });
+
+});
+
