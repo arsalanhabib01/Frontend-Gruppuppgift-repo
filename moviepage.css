@@ -14,7 +14,6 @@ main{
   background-color: rgb(148, 148, 148);
   margin-top: 0px;
   padding: 10px;
-
 }
 
 .div2{
@@ -31,9 +30,11 @@ main{
   padding:10px;
 }
 iframe{
+  
   height: 600px;
   width: 100%;
-  border-bottom: solid black;
+  border: solid black;
+  padding-right: 0px;
 }
 
 
