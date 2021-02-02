@@ -3,6 +3,8 @@
 
   "afterWeCollide": {
 
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgdmGPWW57tvH1SxPwqRZqebsxPSyVp10M53z1u_X0j0MeWL0J",
+
     "trailer": "<iframe src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "After we collided",
@@ -37,6 +39,9 @@
   },
 
   "alfonsLekerEinstein": {
+
+    "picture": "https://1tt96y3e4ctaz48o4cf53sba-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/AlfonslekerEinstein_affisch_A3-jpg.jpg",
+
     "trailer": "<iframe src='https://www.youtube.com/embed/Df7z5tSBkWI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Alfons leker Einstein",
@@ -69,6 +74,9 @@
   },
 
   "andraSidan": {
+
+    "picture": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/379834/33a974c2c8df0019ba1dce5ef732126f-andra-sidan-poster.jpg",
+
     "trailer": "<iframe src='https://www.youtube.com/embed/EN4ICCu8SJI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Andra sidan",
@@ -101,6 +109,9 @@
   },
 
   "bertsDagbok": {
+
+    "picture": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/373315/cd1495530b2b0377d58ade681c2d12ee-artwork-berts-dagbok.jpg",
+
     "trailer": "<iframe src='https://www.youtube.com/embed/WH2pX1QPrb4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Berts dagbok",
@@ -136,6 +147,9 @@
 
   },
   "comePlay": {
+
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpGoWICsaw6aAnbrnX37mgFgALMZYmxKO3HxvUfFxNAJ_HOEw",
+
     "trailer": "<iframe src='https://www.youtube.com/embed/LQwiqhdMQ7g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "Come play",
