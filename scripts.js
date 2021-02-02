@@ -1,22 +1,34 @@
 $(document).ready(function() {
  
-  $.getJSON('../showings.json', function (json2) {
-    let arr = json2.showings.afterWeCollided;
+  $.getJSON('../showings.json', function (json) {
+    
+    let firstWeekMovies = [];
+    let arrayOfMovies = ["afterWeCollided", "alfonsLekerEinstein", "andraSidan", "bertsDagbok", "comePlay"];
+    
+    for (let j = 0; j < arrayOfMovies.length; j++){
 
+    let arr = json.showings[arrayOfMovies[j]];
 
     arr.forEach(obj => {
-      if (obj.date == "2021-02-01" && obj.time == "17.30") {
-        $('.monday').append('');
+
+      for (let i = 1; i < 8; i++) {
+        if (obj.date == `2021-02-0${i}`){
+          firstWeekMovies.push(obj);
+        }
       }
-      
+    });
+    }
+    
+    console.log(firstWeekMovies);
     });
     
     });
   
-});
-
-
-
+ // arr.forEach(obj => {
+    //   if (obj.date == "2021-02-01" && obj.time == "17.30") {
+    //     $('.monday').append('');
+    
+    //   }
 
 
 // comeplay <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpGoWICsaw6aAnbrnX37mgFgALMZYmxKO3HxvUfFxNAJ_HOEw"></img>
