@@ -40,10 +40,7 @@ $(document).ready(function() {
     addMovies(saturdayMovies, ".saturday");
     addMovies(sundayMovies, ".sunday");
 
-    console.log(mondayMovies);
 
-
-    // Har array av första veckans filmer
     function parseMovies(allMovies, day){
 
     let movie1 = allMovies.filter(obj => {
@@ -65,19 +62,19 @@ $(document).ready(function() {
      
       for (let i = 0; i < array.length; i++){
         if (array[i].film === "After we collided") {
-          $(`div${daystring}`).append(`<img src="${picAfter}">`);
+          $(`div${daystring}`).append(`<a href="afterWeCollided/afterWeCollided.html"><img src="${picAfter}"></a>`);
         }
         else if(array[i].film === "Alfons leker Einstein"){
-          $(`div${daystring}`).append(`<img src="${picAlfons}">`);
+          $(`div${daystring}`).append(`<a href="alfons/alfons.html"><img src="${picAlfons}"></a>`);
         }
         else if(array[i].film === "Andra sidan"){
-          $(`div${daystring}`).append(`<img src="${picAndra}">`);
+          $(`div${daystring}`).append(`<a href="andraSidan/andraSidan.html"><img src="${picAndra}"></a>`);
         }
         else if(array[i].film === "Berts dagbok"){
-          $(`div${daystring}`).append(`<img src="${picBert}">`);
+          $(`div${daystring}`).append(`<a href="bert/bert.html"><img src="${picBert}"></a>`);
         }
         else if(array[i].film === "Come play"){
-          $(`div${daystring}`).append(`<img src="${picCome}">`);
+          $(`div${daystring}`).append(`<a href="comePlay/comePlay.html"><img src="${picCome}"></a>`);
         }
       }
     }
