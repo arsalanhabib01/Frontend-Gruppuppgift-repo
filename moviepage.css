@@ -7,7 +7,7 @@ main{
 }
 
 .div1 {
-  width: 45%;
+  width: 80%;
   margin-right: 30px;
   font-family: 'Roboto', sans-serif;
   border: solid rgb(0, 0, 0);
@@ -31,7 +31,7 @@ main{
   padding:10px;
 }
 iframe{
-  height: 400px;
+  height: 600px;
   width: 100%;
   border-bottom: solid black;
 }
