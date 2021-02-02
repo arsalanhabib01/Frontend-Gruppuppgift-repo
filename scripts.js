@@ -1,7 +1,6 @@
 $(document).ready(function() {
  
   $.getJSON('../showings.json', function (json) {
-    
     let firstWeekMovies = [];
     let arrayOfMovies = ["afterWeCollided", "alfonsLekerEinstein", "andraSidan", "bertsDagbok", "comePlay"];
     let picAfter = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgdmGPWW57tvH1SxPwqRZqebsxPSyVp10M53z1u_X0j0MeWL0J";
@@ -24,37 +23,40 @@ $(document).ready(function() {
       }
     });
     }
-    // Har array av första veckans filmer
-    
-    for (let day = 1; day < 8; day++){
 
-    let movie1 = firstWeekMovies.filter(obj => {
+    let mondayMovies = parseMovies(firstWeekMovies, 1);
+
+
+    console.log(mondayMovies);
+
+
+
+
+
+
+
+
+    
+    // Har array av första veckans filmer
+    function parseMovies(allMovies, day){
+
+    let movie1 = allMovies.filter(obj => {
       return obj.date === `2021-02-0${day}` && obj.time === "17.30";
     })
-    let movie2 = firstWeekMovies.filter(obj => {
+    let movie2 = allMovies.filter(obj => {
       return obj.date === `2021-02-0${day}` && obj.time === "19.30";
     })
-    let movie3 = firstWeekMovies.filter(obj => {
+    let movie3 = allMovies.filter(obj => {
       return obj.date === `2021-02-0${day}` && obj.time === "21.30";
     })
-
+     
+    let movieArray = [movie1, movie2, movie3];
+    
+      return movieArray;  
     }
 
-    console.log(result)
+    
 
-
-    // for (let day = 1; day < 8; day++){
-    //   firstWeekMovies.forEach(obj => {
-    //     if (obj.date == `2021-02-0${day}` && (obj.time == "17.30")) {
-    //       $('.monday').append('${}');
-    //     }
-    //     else if (obj.date == `2021-02-0${day}` && (obj.time == "19.30")) {
-    //       $('.monday').append('${}');
-    //     }
-
-
-    //   });
-    // }
 
     
   });
