@@ -30,9 +30,9 @@ $(document).ready(function() {
 
     
     function collectFirstWeekMovies(){
-    for (let j = 0; j < arrayOfMovies.length; j++){
+    for (let movie of arrayOfMovies){
 
-    let arr = json.showings[arrayOfMovies[j]];
+    let arr = json.showings[movie];
 
     arr.forEach(showing => {
 
