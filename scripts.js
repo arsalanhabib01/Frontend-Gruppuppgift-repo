@@ -10,19 +10,7 @@ $(document).ready(function() {
     let picCome = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpGoWICsaw6aAnbrnX37mgFgALMZYmxKO3HxvUfFxNAJ_HOEw"
 
 
-    for (let j = 0; j < arrayOfMovies.length; j++){
-
-    let arr = json.showings[arrayOfMovies[j]];
-
-    arr.forEach(obj => {
-
-      for (let i = 1; i < 8; i++) {
-        if (obj.date == `2021-02-0${i}`){
-          firstWeekMovies.push(obj);
-        }
-      }
-    });
-    }
+    collectFirstWeekMovies();
 
     let mondayMovies = parseMovies(firstWeekMovies, 1);
     let tuesdayMovies = parseMovies(firstWeekMovies, 2);
@@ -40,6 +28,22 @@ $(document).ready(function() {
     addMovies(saturdayMovies, ".saturday");
     addMovies(sundayMovies, ".sunday");
 
+    
+    function collectFirstWeekMovies(){
+    for (let j = 0; j < arrayOfMovies.length; j++){
+
+    let arr = json.showings[arrayOfMovies[j]];
+
+    arr.forEach(obj => {
+
+      for (let i = 1; i < 8; i++) {
+        if (obj.date == `2021-02-0${i}`){
+          firstWeekMovies.push(obj);
+        }
+      }
+    });
+    }
+    }
 
     function parseMovies(allMovies, day){
 
