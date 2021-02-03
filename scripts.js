@@ -34,11 +34,11 @@ $(document).ready(function() {
 
     let arr = json.showings[arrayOfMovies[j]];
 
-    arr.forEach(obj => {
+    arr.forEach(showing => {
 
       for (let i = 1; i < 8; i++) {
-        if (obj.date == `2021-02-0${i}`){
-          firstWeekMovies.push(obj);
+        if (showing.date == `2021-02-0${i}`){
+          firstWeekMovies.push(showing);
         }
       }
     });
@@ -47,14 +47,14 @@ $(document).ready(function() {
 
     function parseMovies(allMovies, day){
 
-    let movie1 = allMovies.filter(obj => {
-      return obj.date === `2021-02-0${day}` && obj.time === "17.30";
+    let movie1 = allMovies.filter(movie => {
+      return movie.date === `2021-02-0${day}` && movie.time === "17.30";
     })
-    let movie2 = allMovies.filter(obj => {
-      return obj.date === `2021-02-0${day}` && obj.time === "19.30";
+    let movie2 = allMovies.filter(movie => {
+      return movie.date === `2021-02-0${day}` && movie.time === "19.30";
     })
-    let movie3 = allMovies.filter(obj => {
-      return obj.date === `2021-02-0${day}` && obj.time === "21.30";
+    let movie3 = allMovies.filter(movie => {
+      return movie.date === `2021-02-0${day}` && movie.time === "21.30";
     })
      
     let movieArray = [movie1[0], movie2[0], movie3[0]];
@@ -82,11 +82,7 @@ $(document).ready(function() {
         }
       }
     }
-
-    
-
-
-    
+  
   });
   });
  
