@@ -1,4 +1,4 @@
-html,body, ul, li, h1, h2, a{
+html,body, ul, li, h1, h2,h4, a{
   margin: 0;
   padding: 0;
 }
@@ -28,10 +28,6 @@ header a {
 
 header a:hover{
   text-decoration: underline;
-}
-
-body img:hover{
-  transform: scale(0.98);
 }
 
    p.title{
@@ -109,7 +105,16 @@ h3{
   height: 200px;
   border: solid black;
   border-radius: 10px;
+  
+}
+
+.film_ikoner img:hover{
+  opacity: 0.9;
+}
+
+.film_ikoner div{
   margin: 5px;
+  text-align: center;
 }
 
 .schema{
@@ -119,6 +124,7 @@ h3{
   font-size: larger;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .schema div{
@@ -135,6 +141,10 @@ h3{
 
   margin: 30px;
   display: block;
+}
+
+.schema img:hover{
+  transform: scale(0.98);
 }
 
 
