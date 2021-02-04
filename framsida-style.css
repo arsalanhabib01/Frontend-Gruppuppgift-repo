@@ -1,11 +1,39 @@
+html,body, ul, li, h1, h2, a{
+  margin: 0;
+  padding: 0;
+}
 
+html{
+  background-color:black;
+  background-image: url('https://highspringsplayhouse.com/wp-content/uploads/2016/01/red-curtains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
 header{
-
   font-size: larger;
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  position:sticky;
+  top:0;
+  width:100%;
 }
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+body img:hover{
+  transform: scale(0.98);
+}
+
    p.title{
       text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 
     0 0 10px #ff8d00, 0 0 98px #ff0000;
@@ -65,7 +93,7 @@ h3{
 
 .navlist_right a{
   
-  border-bottom: solid black;
+  border-bottom: solid white;
   border-width: 1px;
   padding: 10px;
   text-decoration: none;
@@ -94,7 +122,7 @@ h3{
 }
 
 .schema div{
-  border-inline: solid black;
+  border-inline: solid white;
   border-inline-width: 1px;
   margin: 1px;
 }
