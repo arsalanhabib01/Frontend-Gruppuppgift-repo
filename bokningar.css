@@ -15,6 +15,10 @@ body {
   margin-bottom: 30px;
 }
 
+.select{
+  padding: 5px;
+}
+
 .seat {
   background-color: #444451;
   height: 12px;
@@ -98,3 +102,6 @@ button{
   display: none;
 }
 
+.time{
+  margin: 10px;
+}

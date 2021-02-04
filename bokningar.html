@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="movie-container">
-      <select id="movie">
+      <select id="movie" class="select">
         <option class="placeholder" selected disabled value="">Välj en film</option>
         <option>Alfons Leker Elinstein</option>
         <option>Berts DagBok</option>
@@ -18,13 +18,44 @@
       </select>
 
 
-      <select id="age">
+      <select id="age" class="select">
         <option class="placeholder" selected disabled value="">Olika Pris</option>
         <option value="85">Vuxen 85kr</option>
         <option value="65">Barn 65kr</option>
         <option value="75">Pensionär 75kr</option>
       </select>
+
+    <select id="day" class="select">
+        <option class="placeholder" selected disabled value="">Välj en dag</option>
+        <option value="måndag">måndag</option>
+        <option value="tisdag">tisdag</option>
+        <option value="onsdag">onsdag</option>
+        <option value="torsdag">torsdag</option>
+        <option value="fridag">fridag</option>
+        <option value="lördag">lördag</option>
+        <option value="söndag">söndag</option>
+      </select>
     </div>
+
+    
+ <div class="time">
+    <input type="radio" id="Choice1"
+     name="contact" value="11:00 - 13:30">
+    <label for="Choice1">11:00 - 13:30</label>
+
+    <input type="radio" id="Choice2"
+     name="contact" value="14:30 - 17:00">
+    <label for="Choice2">14:30 - 17:00</label>
+ 
+    <input type="radio" id="Choice3"
+     name="contact" value="17:30 - 20:00">
+    <label for="Choice3">17:30 - 20:00</label>
+  
+    <input type="radio" id="Choice4"
+     name="contact" value="19:30 - 22:00">
+    <label for="Choice4">19:30 - 22:00</label>
+  </div>
+
 
     <ul class="showcase">
       <li>
