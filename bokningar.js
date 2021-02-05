@@ -1,16 +1,18 @@
 
 
 
-var container = document.querySelector('.container');
-var seats = document.querySelectorAll('.row .seat:not(.occupied)');
-var count = document.getElementById('count');
-var price = document.getElementById('price');
-var ageSelect = document.getElementById('age');
-var movieSelect = document.getElementById('movie');
-var tid = document.querySelector('.time');
-var selectedDay = document.getElementById('day');
+// here all the required declarations
+let container = document.querySelector('.container');
+let seats = document.querySelectorAll('.row .seat:not(.occupied)');
+let count = document.getElementById('count');
+let price = document.getElementById('price');
+let selectedAge = document.getElementById('age');
+let selectedMovie = document.getElementById('movie');
+let time = document.querySelector('.time');
+let selectedDay = document.getElementById('day');
+
+let ticketDetails = [];
 let selectedTime;
-var bookingArray = [];
 
   // Seat select event
   container.addEventListener('click', e => {
@@ -23,8 +25,8 @@ var bookingArray = [];
     }
   });
 
-
-   tid.onclick = function () {
+  // time select event
+   time.onclick = function () {
      const rbs = document.querySelectorAll('input[name="contact"]');
             for (const rb of rbs) {
                 if (rb.checked) {
@@ -37,52 +39,61 @@ var bookingArray = [];
 
 
 
-
+// this function book your tickets for the selected movie
 function bookingSelectedSeats(){
-  var selectedSeats = JSON.parse(localStorage.getItem('selectedSeats'));
-  var name = window.prompt("Enter your name to book your tickets: ");
+  let selectedSeats = localStorage.getItem('selectedSeats');
+  let name = window.prompt("Enter your name to book your tickets: ");
 
   if (name === null)
-    alert("Your booking is cancelled....");
+    alert("Booking is cancelled....");
   else if (name === "")
-    alert("Must be entered the Name...");
+    alert("The Name must be entered...");
+  else if (selectedMovie.value === "")
+    alert("Please fill all the requried blanks...");
+  else if (selectedDay.value === "")
+    alert("Please fill all the required blanks...");
+  else if (selectedAge.value === "")
+    alert("Please fill all the required blanks...");
   else if (selectedTime === undefined)
-    alert("Please Select the time first...");
+    alert("Please fill all the required blanks...");
+
     
-  if (name !== null && name !== "" && selectedTime !== undefined
+  if (name !== null && name !== "" && selectedTime !== undefined && selectedMovie.value !== ""
+    && selectedDay.value !== "" && selectedAge.value !== ""
     && selectedSeats !== null && selectedSeats.length > 0) {
     seats.forEach((seat, index) => {
       if (selectedSeats.indexOf(index) > -1) {
         seat.classList.add('occupied');
-        var x = localStorage.removeItem('selectedSeats');
+        localStorage.removeItem('selectedSeats');
       }
     });
-    bookingArray.push({ "name": name }, { "seat no": selectedSeats }, { "time": selectedTime },
-      { "Total Price": price.innerText }, { "Number of tickets": count.innerText });
-    alert("Selected Seat no: " + selectedSeats + " booked by the name: " + name);
+    ticketDetails.push({ "Name": name }, { "Movie Name": selectedMovie.value }, { "Seat No": selectedSeats },
+      { "Time": selectedTime }, { "Day": selectedDay.value }, { "Total Price": price.innerText },
+      { "Number of Tickets": count.innerText });
+    alert("Ticket is booked by: " + name);
     
-    // Mahran start from here jsonString i file .json
-    var jsonString = JSON.stringify(bookingArray);
-    // console.log(jsonString);
-     alert("JSON STRING : " +jsonString);
+
+    // Mahran kolla spara jsonString i file .json
+    let jsonString = JSON.stringify(ticketDetails,null,' ');
+     //console.log(jsonString);
   }
 }
 
-
+ // this function counts the number of seats and their total price 
   function updateSelectedSeatsCount(){
-  var selectedSeats = document.querySelectorAll('.row .selected:not(.occupied)');
-  var seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
+  let selectedSeats = document.querySelectorAll('.row .selected:not(.occupied)');
+  let seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
 
   localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
   
-  var selectedSeatsCount = selectedSeats.length;
-  var ticketPrice = +ageSelect.value;
+  let selectedSeatsCount = selectedSeats.length;
+  let ticketPrice = +selectedAge.value;
   count.innerText = selectedSeatsCount;
   price.innerText = selectedSeatsCount * ticketPrice;
 }
 
 
-  
+// booking button function
 function myButton() {
   bookingSelectedSeats();
 }
