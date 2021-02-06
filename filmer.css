@@ -83,12 +83,25 @@ h3{
 
 
 .movieimage {
-  width: 100px;
+  width: 200px;
   display: flex;
   margin-left: 10%;
   margin-top: 5%;
   border: black;
   border-radius: 20px;
+}
+
+.movietitle{
+  font-family: 'Roboto' sans-serif;
+  margin-left: 180px;
+}
+
+.moviedescribtion{
+  font-family:'Roboto'sans-serif ;
+  margin-left: 180px;
+  margin-right: 500px;
+  border: black;
+  background-color: whitesmoke;
 }
 
 h2{
