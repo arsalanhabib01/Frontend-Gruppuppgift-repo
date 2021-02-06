@@ -1,11 +1,35 @@
+html,body, ul, li, h1, h2,h4, a{
+  margin: 0;
+  padding: 0;
+}
 
+html{
+  background-color:black;
+  background-image: url('https://highspringsplayhouse.com/wp-content/uploads/2016/01/red-curtains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
 header{
-
   font-size: larger;
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  position:sticky;
+  top:0;
+  width:100%;
 }
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
    p.title{
       text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 
     0 0 10px #ff8d00, 0 0 98px #ff0000;
@@ -32,6 +56,9 @@ header{
     color: #fff6a9;
   }
 }
+
+
+
 
 .page_title{
  display: flex;
@@ -61,7 +88,8 @@ h3{
 }
 
 .navlist_right a{
-  border-right: solid black;
+  
+  border-bottom: solid white;
   border-width: 1px;
   padding: 10px;
   text-decoration: none;
@@ -77,9 +105,48 @@ h3{
   height: 200px;
   border: solid black;
   border-radius: 10px;
-  margin: 5px;
-  border-width: 1px;
+  
 }
+
+.film_ikoner img:hover{
+  opacity: 0.9;
+}
+
+.film_ikoner div{
+  margin: 5px;
+  text-align: center;
+}
+
+.schema{
+  justify-content: center;
+  display:flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.schema div{
+  border-inline: solid white;
+  border-inline-width: 1px;
+  margin: 1px;
+}
+
+.schema img{
+  width: 100px;
+  height: 150px;
+  border: solid black;
+  border-radius: 5px;
+
+  margin: 30px;
+  display: block;
+}
+
+.schema img:hover{
+  transform: scale(0.98);
+}
+
 
 
 .movieimage {
@@ -93,15 +160,16 @@ h3{
 
 .movietitle{
   font-family: 'Roboto' sans-serif;
-  margin-left: 180px;
+  margin-left: 140px;
+  margin-top: 20px;
 }
 
 .moviedescribtion{
   font-family:'Roboto'sans-serif ;
-  margin-left: 180px;
+  margin-left: 140px;
   margin-right: 500px;
   border: black;
-  background-color: whitesmoke;
+  background-color:rgba(255, 255, 255, .10);
 }
 
 h2{
