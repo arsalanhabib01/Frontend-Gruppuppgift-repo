@@ -20,6 +20,7 @@ header{
   position:sticky;
   top:0;
   width:100%;
+  z-index: 1;
 }
 header a {
   text-decoration: none;
@@ -151,23 +152,34 @@ h3{
 
 .movieimage {
   width: 200px;
-  display: flex;
-  margin-left: 10%;
-  margin-top: 5%;
   border: black;
   border-radius: 20px;
+    z-index: -1;
 }
-
+.imageContainer{
+  overflow: hidden;
+  display:inline-block;
+  margin-left: 140px;
+  border-radius: 20px;
+  margin-top: 50px;
+  z-index: -1;
+}
+.movieimage:hover{
+  transform: scale(1.2);
+}
 .movietitle{
   font-family: 'Roboto' sans-serif;
   margin-left: 140px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
+
 
 .moviedescribtion{
   font-family:'Roboto'sans-serif ;
   margin-left: 140px;
   margin-right: 500px;
+  margin-bottom: 40px;
   border: black;
   background-color:rgba(255, 255, 255, .10);
 }
