@@ -78,8 +78,15 @@ function bookingSelectedSeats() {
 
 
     // Mahran kolla spara jsonString i file .json
+    //Save the info to the localstorage 
     let jsonString = JSON.stringify(ticketDetails, null, ' ');
-    //console.log(jsonString);
+    localStorage.setItem('jsonString', JSON.stringify(jsonString), (err) => {
+      if (err) throw err;
+      console.log('Data written to localStorage');
+     });
+     var data = ' ' + localStorage.getItem("jsonString");
+     console.log(data);
+
   }
 }
 
