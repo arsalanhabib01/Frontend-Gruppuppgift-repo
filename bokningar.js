@@ -48,14 +48,9 @@ function bookingSelectedSeats() {
     alert("Booking is cancelled....");
   else if (name === "")
     alert("The Name must be entered...");
-  else if (selectedMovie.value === "")
+  else if (selectedMovie.value === "" || selectedDay.value === "" ||
+  selectedAge.value === "" || selectedTime === undefined) 
     alert("Please fill all the requried blanks...");
-  else if (selectedDay.value === "")
-    alert("Please fill all the required blanks...");
-  else if (selectedAge.value === "")
-    alert("Please fill all the required blanks...");
-  else if (selectedTime === undefined)
-    alert("Please fill all the required blanks...");
 
 
   if (name !== null && name !== "" && selectedTime !== undefined && selectedMovie.value !== ""
@@ -99,7 +94,7 @@ function bookingSelectedSeats() {
                      + JSON.stringify(list[2]) + "</br>" 
                      + JSON.stringify(list[3]) + "</br>" 
                      + JSON.stringify(list[4]) + "</br>" 
-                     + JSON.stringify(list[4]) + "</br>" 
+                     + JSON.stringify(list[5]) + "</br>" 
                      + JSON.stringify(list[6]);
     //print out the result
      window.confirm("Print the ticket");
