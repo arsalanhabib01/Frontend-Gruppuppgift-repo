@@ -78,15 +78,40 @@ function bookingSelectedSeats() {
 
 
     // Mahran kolla spara jsonString i file .json
-    //Save the info to the localstorage 
-    let jsonString = JSON.stringify(ticketDetails, null, ' ');
-    localStorage.setItem('jsonString', JSON.stringify(jsonString), (err) => {
-      if (err) throw err;
-      console.log('Data written to localStorage');
-     });
-     var data = ' ' + localStorage.getItem("jsonString");
-     console.log(data);
+    let jsonString = JSON.stringify(ticketDetails,null,' ');
 
+    //Deserialize the json array.
+    var list = JSON.parse( jsonString );
+    console.log(list);
+
+    // Save the data to the localStorage.
+     localStorage.setItem('list', JSON.stringify(list))
+      console.log("Data written to localStorage");
+   
+     // get the saved data from localStorage.
+     var data = ' ' + localStorage.getItem('list');
+     console.log(data);
+    
+      //Using the output deserialized values to print the result
+     var data_list = " User Ticket" + "</br>"      
+                     + JSON.stringify(list[0]) + "</br>" 
+                     + JSON.stringify(list[1]) + "</br>" 
+                     + JSON.stringify(list[2]) + "</br>" 
+                     + JSON.stringify(list[3]) + "</br>" 
+                     + JSON.stringify(list[4]) + "</br>" 
+                     + JSON.stringify(list[4]) + "</br>" 
+                     + JSON.stringify(list[6]);
+    //print out the result
+     window.confirm("Print the ticket");
+     
+     if (confirm) {
+       document.writeln(data_list);
+       window.print();
+     } else {
+       txt = "You pressed Cancel!";
+     }
+
+     
   }
 }
 
