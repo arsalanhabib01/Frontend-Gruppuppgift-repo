@@ -86,6 +86,15 @@ function bookingSelectedSeats() {
      // get the saved data from localStorage.
      var data = ' ' + localStorage.getItem('list');
      console.log(data);
+
+     //Save to Json file.
+     let fs = require('fs'), jsoneData= JSON.stringify(list);
+     fs.writefile("./Biljetter/Biljetter.json", jsoneData, function(err)
+              {
+              if(err){
+               console.log(err);
+               }
+              });
     
       //Using the output deserialized values to print the result
      var data_list = " User Ticket" + "</br>"      
