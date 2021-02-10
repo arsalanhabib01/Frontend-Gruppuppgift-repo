@@ -12,21 +12,13 @@ $(document).ready(function() {
 
     collectFirstWeekMovies();
 
-    let mondayMovies = parseMovies(firstWeekMovies, 1);
-    let tuesdayMovies = parseMovies(firstWeekMovies, 2);
-    let wednesdayMovies = parseMovies(firstWeekMovies, 3);
-    let thursdayMovies = parseMovies(firstWeekMovies, 4);
-    let fridayMovies = parseMovies(firstWeekMovies, 5);
-    let saturdayMovies = parseMovies(firstWeekMovies, 6);
-    let sundayMovies = parseMovies(firstWeekMovies, 7);
-
-    addMovies(mondayMovies, ".monday");
-    addMovies(tuesdayMovies, ".tuesday");
-    addMovies(wednesdayMovies, ".wednesday");
-    addMovies(thursdayMovies, ".thursday");
-    addMovies(fridayMovies, ".friday");
-    addMovies(saturdayMovies, ".saturday");
-    addMovies(sundayMovies, ".sunday");
+    addMovies(parseMovies(firstWeekMovies, 1), ".monday");
+    addMovies(parseMovies(firstWeekMovies, 2), ".tuesday");
+    addMovies(parseMovies(firstWeekMovies, 3), ".wednesday");
+    addMovies(parseMovies(firstWeekMovies, 4), ".thursday");
+    addMovies(parseMovies(firstWeekMovies, 5), ".friday");
+    addMovies(parseMovies(firstWeekMovies, 6), ".saturday");
+    addMovies(parseMovies(firstWeekMovies, 7), ".sunday");
 
     
     function collectFirstWeekMovies(){
