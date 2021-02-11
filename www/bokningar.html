@@ -7,76 +7,6 @@
   <link rel="stylesheet" href="bokningar.css" />
   <title>Film Plats Bokning</title>
 
-  <script language="javascript" type="text/javascript">
-    function dynamicdropdown(listindex) {
-      document.getElementById("day").length = 0;
-      document.getElementById("age").length = 0;
-      switch (listindex) {
-        case "Alfons Leker Elinstein":
-          document.getElementById("day").options[0] = new Option("Välj en dag", "");
-          document.getElementById("day").options[1] = new Option("Måndag", "Måndag");
-          document.getElementById("day").options[2] = new Option("Tisdag", "Tisdag");
-          document.getElementById("day").options[3] = new Option("Onsdag", "Onsdag");
-          document.getElementById("day").options[4] = new Option("Torsdag", "Torsdag");
-
-          document.getElementById("age").options[0] = new Option("Olika Pris", "");
-          document.getElementById("age").options[1] = new Option("Vuxen 85kr", "85");
-          document.getElementById("age").options[2] = new Option("Barn 65kr", "65");
-          document.getElementById("age").options[3] = new Option("Pensionär 75kr", "75");
-
-          break;
-
-        case "Berts DagBok":
-          document.getElementById("day").options[0] = new Option("Välj en dag", "");
-          document.getElementById("day").options[1] = new Option("Tisdag", "Tisdag");
-          document.getElementById("day").options[2] = new Option("Torsdag", "Torsdag");
-          document.getElementById("day").options[3] = new Option("Lördag", "Lördag");
-          document.getElementById("day").options[4] = new Option("Söndag", "Söndag");
-
-          document.getElementById("age").options[0] = new Option("Olika Pris", "");
-          document.getElementById("age").options[1] = new Option("Vuxen 85kr", "85");
-          document.getElementById("age").options[2] = new Option("Barn 65kr", "65");
-          document.getElementById("age").options[3] = new Option("Pensionär 75kr", "75");
-          break;
-        case "Andra Sidan":
-          document.getElementById("day").options[0] = new Option("Välj en dag", "");
-          document.getElementById("day").options[1] = new Option("Tisdag", "Tisdag");
-          document.getElementById("day").options[2] = new Option("Onsdag", "Onsdag");
-          document.getElementById("day").options[3] = new Option("Fridag", "Fridag");
-          document.getElementById("day").options[4] = new Option("Söndag", "Söndag");
-
-          document.getElementById("age").options[0] = new Option("Olika Pris", "");
-          document.getElementById("age").options[1] = new Option("Vuxen 85kr", "85");
-          document.getElementById("age").options[2] = new Option("Pensionär 75kr", "75");
-
-          break;
-        case "After We Collided":
-          document.getElementById("day").options[0] = new Option("Välj en dag", "");
-          document.getElementById("day").options[1] = new Option("Måndag", "Måndag");
-          document.getElementById("day").options[2] = new Option("Torsdag", "Torsdag");
-          document.getElementById("day").options[3] = new Option("Fridag", "Fridag");
-          document.getElementById("day").options[4] = new Option("Lördag", "Lördag");
-
-          document.getElementById("age").options[0] = new Option("Olika Pris", "");
-          document.getElementById("age").options[1] = new Option("Vuxen 85kr", "85");
-          document.getElementById("age").options[2] = new Option("Pensionär 75kr", "75");
-
-          break;
-        case "Come Play":
-          document.getElementById("day").options[0] = new Option("Välj en dag", "");
-          document.getElementById("day").options[1] = new Option("Möndag", "Möndag");
-          document.getElementById("day").options[2] = new Option("Onsdag", "Onsdag");
-          document.getElementById("day").options[3] = new Option("Fridag", "Fridag");
-          document.getElementById("day").options[4] = new Option("Söndag", "Söndag");
-
-          document.getElementById("age").options[0] = new Option("Olika Pris", "");
-          document.getElementById("age").options[1] = new Option("Vuxen 85kr", "85");
-          document.getElementById("age").options[2] = new Option("Pensionär 75kr", "75");
-          break;
-      }
-      return true;
-    }
-  </script>
 
 </head>
 
@@ -85,29 +15,16 @@
   <div class="movie-container" id="category_div">
     <select name="category" class="select" id="movie">
       <option class="placeholder">Välj en film</option>
-
-
     </select>
 
-    <script type="text/javascript" language="JavaScript">
-      document.write('<select class="select" id="age"><option value="">Olika Pris</option></select>')
-    </script>
-    <noscript>
-      <div select class="select" id="age">
-        <option class="placeholder" selected disabled value="">Olika Pris</option>
-        </select>
-    </noscript>
+    <select class="select" id="ticket">
+      <option class="placeholder">Välj biljett</option>
+    </select>
 
+    <select class="select" id="date">
+      <option class="placeholder" selected disabled value="">Välj ett datum</option>
+    </select>
 
-
-    <script type="text/javascript" language="JavaScript">
-      document.write('<select class="select" id="day"><option value="">Välj en dag</option></select>')
-    </script>
-    <noscript>
-      <div select class="select" id="day">
-        <option class="placeholder" selected disabled value="">Välj en dag</option>
-        </select>
-    </noscript>
   </div>
 
   <div class="time">
