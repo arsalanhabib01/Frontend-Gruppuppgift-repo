@@ -12,7 +12,7 @@ function renderMovies(movies) {
     <div>
       <div class = "contentContainer">
         <div  class = "imageContainer">
-           <a href = "${movie.id}/${movie.id}.html">
+           <a href = "${movie.id}.html">
            <img src="${movie.picture}" class="movieimage">
            </a>
          </div>
