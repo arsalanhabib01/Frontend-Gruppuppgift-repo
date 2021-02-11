@@ -8,11 +8,11 @@ let count = document.getElementById('count');
 let price = document.getElementById('price');
 let selectedAge = document.getElementById('ticket');
 let selectedMovie = document.getElementById('movie');
-let time = document.querySelector('.time');
-let selectedDay = document.getElementById('day');
+//let time = document.querySelector('.time');
+let selectedDay = document.getElementById('date');
 
 let ticketDetails = [];
-let selectedTime;
+//let selectedTime;
 
 // Seat select event
 container.addEventListener('click', e => {
@@ -24,7 +24,7 @@ container.addEventListener('click', e => {
     updateSelectedSeatsCount();
   }
 });
-
+/*
 // time select event
 time.onclick = function () {
   const rbs = document.querySelectorAll('input[name="contact"]');
@@ -36,7 +36,7 @@ time.onclick = function () {
   }
 
 };
-
+*/
 
 
 // this function book your tickets for the selected movie
@@ -49,11 +49,11 @@ function bookingSelectedSeats() {
   else if (name === "")
     alert("The Name must be entered...");
   else if (selectedMovie.value === "" || selectedDay.value === "" ||
-    selectedAge.value === "" || selectedTime === undefined)
+    selectedAge.value === "")
     alert("Please fill all the requried blanks...");
 
 
-  if (name !== null && name !== "" && selectedTime !== undefined && selectedMovie.value !== ""
+  if (name !== null && name !== "" && selectedMovie.value !== ""
     && selectedDay.value !== "" && selectedAge.value !== ""
     && selectedSeats !== null && selectedSeats.length > 0) {
     seats.forEach((seat, index) => {
@@ -63,13 +63,12 @@ function bookingSelectedSeats() {
       }
     });
     ticketDetails.push({ "Name": name }, { "Movie Name": selectedMovie.value }, { "Seat No": selectedSeats },
-      { "Time": selectedTime }, { "Day": selectedDay.value }, { "Total Price": price.innerText },
+      { "Day": selectedDay.value }, { "Total Price": price.innerText },
       { "Number of Tickets": count.innerText });
     alert("Ticket is now booked by: " + name + "\n" +
       "Movie: " + selectedMovie.value + "\n" +
       "Seat: " + selectedSeats + "\n" +
-      "Day: " + selectedDay.value + "\n" +
-      "Time: " + selectedTime);
+      "Day: " + selectedDay.value );
 
 
     // Mahran kolla spara jsonString i file .json
@@ -87,6 +86,7 @@ function bookingSelectedSeats() {
     var data = ' ' + localStorage.getItem('list');
     console.log(data);
 
+    /*
     //Save to Json file.
     let fs = require('fs'), jsoneData = JSON.stringify(list);
     fs.writefile("./Biljetter/Biljetter.json", jsoneData, function (err) {
@@ -94,7 +94,7 @@ function bookingSelectedSeats() {
         console.log(err);
       }
     });
-
+*/
     //Using the output deserialized values to print the result
     var data_list = " User Ticket" + "</br>"
       + JSON.stringify(list[0]) + "</br>"

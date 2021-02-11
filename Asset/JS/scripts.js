@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-  $.getJSON('showings.json', function (json) {
+  $.getJSON('/Asset/JSON/showings.json', function (json) {
     let firstWeekMovies = [];
     let arrayOfMovies = ["afterWeCollided", "alfonsLekerEinstein", "andraSidan", "bertsDagbok", "comePlay"];
     let picAfter = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgdmGPWW57tvH1SxPwqRZqebsxPSyVp10M53z1u_X0j0MeWL0J";
@@ -58,19 +58,19 @@ $(document).ready(function() {
      
       for (let i = 0; i < array.length; i++){
         if (array[i].film === "After we collided") {
-          $(`div${daystring}`).append(`<a href="afterWeCollided/afterWeCollided.html"><img src="${picAfter}"></a>`);
+          $(`div${daystring}`).append(`<a href="/Asset/HTML/afterWeCollided.html"><img src="${picAfter}"></a>`);
         }
         else if(array[i].film === "Alfons leker Einstein"){
-          $(`div${daystring}`).append(`<a href="alfons/alfons.html"><img src="${picAlfons}"></a>`);
+          $(`div${daystring}`).append(`<a href="/Asset/HTML/alfons.html"><img src="${picAlfons}"></a>`);
         }
         else if(array[i].film === "Andra sidan"){
-          $(`div${daystring}`).append(`<a href="andraSidan/andraSidan.html"><img src="${picAndra}"></a>`);
+          $(`div${daystring}`).append(`<a href="/Asset/HTML/andraSidan.html"><img src="${picAndra}"></a>`);
         }
         else if(array[i].film === "Berts dagbok"){
-          $(`div${daystring}`).append(`<a href="bert/bert.html"><img src="${picBert}"></a>`);
+          $(`div${daystring}`).append(`<a href="/Asset/HTML/bert.html"><img src="${picBert}"></a>`);
         }
         else if(array[i].film === "Come play"){
-          $(`div${daystring}`).append(`<a href="comePlay/comePlay.html"><img src="${picCome}"></a>`);
+          $(`div${daystring}`).append(`<a href="/Asset/HTML/comePlay.html"><img src="${picCome}"></a>`);
         }
       }
     }

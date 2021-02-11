@@ -1,6 +1,6 @@
 
 async function loadPhotos() {
-  let movies = await $.getJSON(`moviesFilmersite.json`)
+  let movies = await $.getJSON(`/Asset/JSON/moviesFilmersite.json`)
   console.log(movies)
   renderMovies(movies);
 }

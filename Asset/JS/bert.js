@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
-  $.getJSON('../movies.json', function (json) {
+  $.getJSON('/Asset/JSON/movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.bertsDagbok.trailer + '</div>');
-    $('.div1').append('<a href = "/bokningar.html"><button class="boka">Boka biljett</button>');
+    $('.div1').append('<a href = "/Asset/HTML/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.bertsDagbok.title + '</p>');
     $('.div1').append('<p> Produktionsår : ' + json.movies.bertsDagbok.productionYear + '</p>');
     $('.div1').append('<p> Längd: ' + json.movies.bertsDagbok.length + ' m</p>');
@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('.div1').append('<p> Handling: ' + json.movies.bertsDagbok.description + '</p>');
   });
 
-  $.getJSON('../showings.json', function (json2) {
+  $.getJSON('/Asset/JSON/showings.json', function (json2) {
     let arr = json2.showings.bertsDagbok;
 
     $('.div2').append('<h2>Visningar:</h2>');
