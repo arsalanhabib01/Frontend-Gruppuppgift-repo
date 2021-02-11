@@ -14,8 +14,7 @@ $(document).ready(function () {
     $('#date').empty();
 
     if (selection === 'After we collided') {
-      $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
-      $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+      ticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.afterWeCollided.length; i++) {
@@ -24,9 +23,7 @@ $(document).ready(function () {
       })
     }
     else if (selection === 'Alfons leker Einstein') {
-      $('#ticket').append('<option value="65">Barn, 65kr</option>');
-      $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
-      $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+      ticketWriter2();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.alfonsLekerEinstein.length; i++) {
@@ -35,8 +32,7 @@ $(document).ready(function () {
       });
     }
     else if (selection === 'Andra sidan') {
-      $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
-      $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+      ticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.andraSidan.length; i++) {
@@ -45,9 +41,7 @@ $(document).ready(function () {
       });
     }
     else if (selection === 'Berts dagbok') {
-      $('#ticket').append('<option value="65">Barn, 65kr</option>');
-      $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
-      $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+      ticketWriter2();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.bertsDagbok.length; i++) {
@@ -56,8 +50,7 @@ $(document).ready(function () {
       });
     }
     else if (selection === 'Come play') {
-      $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
-      $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+      ticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.comePlay.length; i++) {
@@ -67,3 +60,14 @@ $(document).ready(function () {
     }
   });
 })
+
+function ticketWriter() {
+  $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
+  $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+}
+
+function ticketWriter2() {
+  $('#ticket').append('<option value="65">Barn, 65kr</option>');
+  $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
+  $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
+}
