@@ -14,7 +14,7 @@ $(document).ready(function () {
     $('#date').empty();
 
     if (selection === 'After we collided') {
-      ticketWriter();
+      matureMovieticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.afterWeCollided.length; i++) {
@@ -23,7 +23,7 @@ $(document).ready(function () {
       })
     }
     else if (selection === 'Alfons leker Einstein') {
-      ticketWriter2();
+      childMovieticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.alfonsLekerEinstein.length; i++) {
@@ -32,7 +32,7 @@ $(document).ready(function () {
       });
     }
     else if (selection === 'Andra sidan') {
-      ticketWriter();
+      matureMovieticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.andraSidan.length; i++) {
@@ -41,7 +41,7 @@ $(document).ready(function () {
       });
     }
     else if (selection === 'Berts dagbok') {
-      ticketWriter2();
+      childMovieticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.bertsDagbok.length; i++) {
@@ -50,7 +50,7 @@ $(document).ready(function () {
       });
     }
     else if (selection === 'Come play') {
-      ticketWriter();
+      matureMovieticketWriter();
 
       $.getJSON('/Asset/JSON/showings.json', function (json) {
         for (let i = 0; i < json.showings.comePlay.length; i++) {
@@ -61,12 +61,12 @@ $(document).ready(function () {
   });
 })
 
-function ticketWriter() {
+function matureMovieticketWriter() {
   $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
   $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
 }
 
-function ticketWriter2() {
+function childMovieticketWriter() {
   $('#ticket').append('<option value="65">Barn, 65kr</option>');
   $('#ticket').append('<option value="85">Vuxen, 85kr</option>');
   $('#ticket').append('<option value="75">Pensionär, 75kr</option>');
