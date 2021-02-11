@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: black;
+  background-color:black;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -16,13 +16,14 @@ body {
 }
 
 .select{
-  padding: 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .seat {
   background-color: #444451;
-  height: 12px;
-  width: 15px;
+  height: 15px;
+  width: 20px;
   margin: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -55,13 +56,13 @@ body {
 }
 
 .showcase {
-  background: black;
   padding: 5px 10px;
   border-radius: 5px;
-  color: #777;
+  color:white;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .showcase li {
@@ -75,9 +76,30 @@ body {
   display: flex;
 }
 
+h2{
+  color:red;
+  position: absolute;
+  top: 20px;
+  text-shadow: 5px 5px palevioletred;
+  white-space: nowrap;
+  animation: floatText 2s infinite alternate ease-in-out;
+}
+
+@keyframes floatText{
+  from {
+    left: 00%;
+  }
+
+  to {
+    /* left: auto; */
+    left: 59%;
+  }
+}
+
 .screen {
+  position: relative;
   background-color: #fff;
-  height: 70px;
+  height: 90px;
   width: 100%;
   margin: 15px 0;
   transform: rotateX(-45deg);
@@ -86,6 +108,7 @@ body {
 
 p.text {
   margin: 5px 0;
+  font-size: 20px;
 }
 
 p.text span {
@@ -94,14 +117,11 @@ p.text span {
 
 button{
   margin: 20px 0px;
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
 }
 
 .placeholder {
   display: none;
-}
-
-.time{
-  margin: 10px;
 }
