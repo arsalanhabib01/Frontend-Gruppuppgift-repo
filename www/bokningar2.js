@@ -19,7 +19,7 @@ $(document).ready(function () {
 
       $.getJSON('showings.json', function (json) {
         for (let i = 0; i < json.showings.afterWeCollided.length; i++) {
-          $('#date').append(`<option value=${json.showings.afterWeCollided[i].date}>${json.showings.afterWeCollided[i].date}</option>`);
+          $('#date').append(`<option value="${json.showings.afterWeCollided[i].date}, ${json.showings.afterWeCollided[i].time}">${json.showings.afterWeCollided[i].date}, ${json.showings.afterWeCollided[i].time}</option>`);
         }
       })
     }
@@ -30,7 +30,7 @@ $(document).ready(function () {
 
       $.getJSON('showings.json', function (json) {
         for (let i = 0; i < json.showings.alfonsLekerEinstein.length; i++) {
-          $('#date').append(`<option value=${json.showings.alfonsLekerEinstein[i].date}>${json.showings.alfonsLekerEinstein[i].date}</option>`);
+          $('#date').append(`<option value="${json.showings.alfonsLekerEinstein[i].date}, ${json.showings.alfonsLekerEinstein[i].time}">${json.showings.alfonsLekerEinstein[i].date}, ${json.showings.alfonsLekerEinstein[i].time}</option>`);
         };
       });
     }
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
       $.getJSON('showings.json', function (json) {
         for (let i = 0; i < json.showings.andraSidan.length; i++) {
-          $('#date').append(`<option value=${json.showings.andraSidan[i].date}>${json.showings.andraSidan[i].date}</option>`);
+          $('#date').append(`<option value="${json.showings.andraSidan[i].date},${json.showings.andraSidan[i].time}">${json.showings.andraSidan[i].date}, ${json.showings.andraSidan[i].time}</option>`);
         };
       });
     }
@@ -51,7 +51,7 @@ $(document).ready(function () {
 
       $.getJSON('showings.json', function (json) {
         for (let i = 0; i < json.showings.bertsDagbok.length; i++) {
-          $('#date').append(`<option value=${json.showings.bertsDagbok[i].date}>${json.showings.bertsDagbok[i].date}</option>`);
+          $('#date').append(`<option value="${json.showings.bertsDagbok[i].date},${json.showings.bertsDagbok[i].time}">${json.showings.bertsDagbok[i].date}, ${json.showings.bertsDagbok[i].time}</option>`);
         };
       });
     }
@@ -61,11 +61,9 @@ $(document).ready(function () {
 
       $.getJSON('showings.json', function (json) {
         for (let i = 0; i < json.showings.comePlay.length; i++) {
-          $('#date').append(`<option value=${json.showings.comePlay[i].date}>${json.showings.comePlay[i].date}</option>`);
+          $('#date').append(`<option value="${json.showings.comePlay[i].date},${json.showings.comePlay[i].time}">${json.showings.comePlay[i].date}, ${json.showings.comePlay[i].time}</option>`);
         };
       });
     }
   });
-
-
 })
