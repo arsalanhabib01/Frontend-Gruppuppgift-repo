@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   $.getJSON('/JSON/movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.afterWeCollide.trailer + '</div>');
-    $('.div1').append('<a href = "/Asset/HTML/bokningar.html"><button class="boka">Boka biljett</button>');
+    $('.div1').append('<a href = "/HTML/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.afterWeCollide.title + '</p>');
     $('.div1').append('<p> Produktionsår : ' + json.movies.afterWeCollide.productionYear + '</p>');
     $('.div1').append('<p> Längd: ' + json.movies.afterWeCollide.length + ' m</p>');

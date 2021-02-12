@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 html,body, ul, li, h1, h2,h4, a{
   margin: 0;
   padding: 0;
