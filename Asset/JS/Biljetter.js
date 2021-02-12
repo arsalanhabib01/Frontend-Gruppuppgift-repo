@@ -1,3 +1,3 @@
-$.getJSON('/Asset/JSON/bokningar.json', function (data) {
+$.getJSON('/JSON/bokningar.json', function (data) {
 
 });

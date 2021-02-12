@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-  $.getJSON('/Asset/JSON/showings.json', function (json) {
+  $.getJSON('/JSON/showings.json', function (json) {
     let firstWeekMovies = [];
     let arrayOfMovies = ["afterWeCollided", "alfonsLekerEinstein", "andraSidan", "bertsDagbok", "comePlay"];
     let picAfter = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgdmGPWW57tvH1SxPwqRZqebsxPSyVp10M53z1u_X0j0MeWL0J";

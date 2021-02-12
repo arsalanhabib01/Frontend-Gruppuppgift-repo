@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  $.getJSON('/Asset/JSON/movies.json', function (json) {
+  $.getJSON('/JSON/movies.json', function (json) {
     $('.div1').append('<div class= "trailer">' + json.movies.andraSidan.trailer + '</div>');
     $('.div1').append('<a href = "/Asset/HTML/bokningar.html"><button class="boka">Boka biljett</button>');
     $('.div1').append('<p> Titel: ' + json.movies.andraSidan.title + '</p>');
@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('.div1').append('<p> Handling: ' + json.movies.andraSidan.description + '</p>');
   });
 
-  $.getJSON('/Asset/JSON/showings.json', function (json2) {
+  $.getJSON('/JSON/showings.json', function (json2) {
     let arr = json2.showings.andraSidan;
 
     $('.div2').append('<h2>Visningar:</h2>');
