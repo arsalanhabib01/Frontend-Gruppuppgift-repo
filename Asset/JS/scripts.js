@@ -58,19 +58,19 @@ $(document).ready(function() {
      
       for (let i = 0; i < array.length; i++){
         if (array[i].film === "After we collided") {
-          $(`div${daystring}`).append(`<a href="/Asset/HTML/afterWeCollided.html"><img src="${picAfter}"></a>`);
+          $(`div${daystring}`).append(`<a href="/HTML/afterWeCollided.html"><img src="${picAfter}"></a>`);
         }
         else if(array[i].film === "Alfons leker Einstein"){
-          $(`div${daystring}`).append(`<a href="/Asset/HTML/alfons.html"><img src="${picAlfons}"></a>`);
+          $(`div${daystring}`).append(`<a href="/HTML/alfons.html"><img src="${picAlfons}"></a>`);
         }
         else if(array[i].film === "Andra sidan"){
-          $(`div${daystring}`).append(`<a href="/Asset/HTML/andraSidan.html"><img src="${picAndra}"></a>`);
+          $(`div${daystring}`).append(`<a href="/HTML/andraSidan.html"><img src="${picAndra}"></a>`);
         }
         else if(array[i].film === "Berts dagbok"){
-          $(`div${daystring}`).append(`<a href="/Asset/HTML/bert.html"><img src="${picBert}"></a>`);
+          $(`div${daystring}`).append(`<a href="/HTML/bert.html"><img src="${picBert}"></a>`);
         }
         else if(array[i].film === "Come play"){
-          $(`div${daystring}`).append(`<a href="/Asset/HTML/comePlay.html"><img src="${picCome}"></a>`);
+          $(`div${daystring}`).append(`<a href="/HTML/comePlay.html"><img src="${picCome}"></a>`);
         }
       }
     }
