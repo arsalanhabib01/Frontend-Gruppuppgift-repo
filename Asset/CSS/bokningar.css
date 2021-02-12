@@ -126,3 +126,27 @@ button{
 .placeholder {
   display: none;
 }
+
+
+@media screen and (max-width: 850px) {
+body{
+height: 100%;
+ margin: 10px;
+}
+.select{
+    width:100%;
+}
+.showcase{
+  flex-direction:row;
+  max-width: auto;
+}
+li{
+  text-size-adjust: 100%;
+  flex-direction: column;
+}
+
+p{
+  text-align: center;
+}
+
+}
