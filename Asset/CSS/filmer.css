@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 
 .movieimage {
   width: 200px;
